@@ -1,7 +1,7 @@
 # Lembrar Cliente — Landing Page
 
-Projeto convertido para um site estático simples (Vite + React + Tailwind),
-sem dependências de servidor. Isso torna o deploy na Netlify direto e sem erros.
+Projeto 100% estático (Vite + React + Tailwind), com todos os arquivos na raiz
+(sem pastas), para facilitar o upload direto pelo site do GitHub.
 
 ## Rodar localmente
 
@@ -10,41 +10,29 @@ npm install
 npm run dev
 ```
 
-Abre em `http://localhost:5173`.
-
 ## Gerar build de produção
 
 ```bash
 npm run build
 ```
 
-Os arquivos finais ficam na pasta `dist/`.
+Os arquivos finais vão para a pasta `dist/` (essa pasta é gerada automaticamente,
+não precisa subir ela pro GitHub).
 
-## Subir no GitHub
+## Como subir no GitHub (upload pelo site, sem pastas)
 
-```bash
-git init
-git add .
-git commit -m "primeiro commit"
-git branch -M main
-git remote add origin SEU_REPOSITORIO_AQUI
-git push -u origin main
-```
+1. Apague todos os arquivos do repositório atual (ou crie um repositório novo vazio).
+2. Vá em **Add file → Upload files**.
+3. Selecione **todos os arquivos** desta pasta de uma vez (Ctrl+A no Explorer) e arraste.
+4. Clique em **Commit changes**.
 
 ## Conectar na Netlify
 
-1. Entre em [app.netlify.com](https://app.netlify.com) → **Add new site** → **Import an existing project**.
-2. Escolha o repositório do GitHub.
-3. A Netlify vai detectar automaticamente as configurações pelo arquivo `netlify.toml`:
-   - **Build command:** `npm run build`
-   - **Publish directory:** `dist`
-4. Clique em **Deploy**.
+1. [app.netlify.com](https://app.netlify.com) → **Add new site** → **Import an existing project**
+2. Selecione o repositório
+3. A Netlify detecta tudo sozinha pelo `netlify.toml`:
+   - Build command: `npm run build`
+   - Publish directory: `dist`
+4. **Deploy**
 
-A partir daí, todo `git push` para o GitHub atualiza automaticamente o site na Netlify.
-
-## Estrutura
-
-- `src/App.tsx` — página principal (seções da landing page)
-- `src/components/landing/` — seções (Hero, Preço, FAQ, etc.)
-- `src/components/ui/` — componentes de interface (shadcn/ui)
-- `src/styles.css` — tema e estilos (Tailwind v4)
+Depois disso, todo `git push` (ou upload novo no GitHub) atualiza o site automaticamente.
