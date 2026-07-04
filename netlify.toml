@@ -1,0 +1,13 @@
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "20"
+
+# Garante que rotas internas (se você adicionar mais páginas no futuro)
+# não caiam em 404 ao recarregar a página.
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
