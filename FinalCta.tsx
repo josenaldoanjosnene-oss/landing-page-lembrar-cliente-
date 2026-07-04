@@ -12,7 +12,7 @@ export function FinalCta() {
               Todos os dias abra o sistema, veja quem precisa ser lembrado e envie a mensagem pelo WhatsApp com apenas um clique.
             </p>
             <div className="mt-8 flex justify-center">
-              <a href="#preco" className="btn-primary !h-12 !px-6 !text-base">Começar teste grátis</a>
+              <a href="https://lembrarcliente.netlify.app/" target="_blank" rel="noopener noreferrer" className="btn-primary !h-12 !px-6 !text-base">Começar teste grátis</a>
             </div>
           </div>
         </div>

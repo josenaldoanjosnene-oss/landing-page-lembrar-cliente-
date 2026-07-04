@@ -35,7 +35,7 @@ export function Pricing() {
               </div>
               <p className="mt-2 text-sm text-muted-foreground">Cancele quando quiser. Sem fidelidade.</p>
 
-              <a href="#" className="btn-primary mt-6 !h-12 w-full !text-base">Começar Agora</a>
+              <a href="https://lembrarcliente.netlify.app/" target="_blank" rel="noopener noreferrer" className="btn-primary mt-6 !h-12 w-full !text-base">Começar Agora</a>
 
               <div className="mt-8 h-px bg-border" />
               <ul className="mt-6 grid gap-2.5">

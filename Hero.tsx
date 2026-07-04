@@ -18,7 +18,7 @@ export function Hero() {
             Todos os dias o sistema mostra exatamente quais clientes precisam ser lembrados. Com apenas um clique, o WhatsApp abre com a mensagem pronta.
           </p>
           <div className="mt-8 flex flex-wrap items-center gap-3">
-            <a href="#preco" className="btn-primary">Começar teste grátis</a>
+            <a href="https://lembrarcliente.netlify.app/" target="_blank" rel="noopener noreferrer" className="btn-primary">Começar teste grátis</a>
             <a href="#demonstracao" className="btn-ghost">Ver demonstração</a>
           </div>
           <div className="mt-8 flex items-center gap-6 text-xs text-muted-foreground">

@@ -17,7 +17,7 @@ export function Nav() {
           <a href="#faq" className="text-sm text-muted-foreground transition hover:text-ink">FAQ</a>
         </nav>
         <div className="flex items-center gap-2">
-          <a href="#preco" className="btn-primary !h-10 !px-4 !text-sm">Começar teste grátis</a>
+          <a href="https://lembrarcliente.netlify.app/" target="_blank" rel="noopener noreferrer" className="btn-primary !h-10 !px-4 !text-sm">Começar teste grátis</a>
         </div>
       </div>
     </header>
