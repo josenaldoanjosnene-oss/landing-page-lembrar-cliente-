@@ -13,7 +13,7 @@ export function Footer() {
         <nav className="flex flex-wrap items-center gap-x-6 gap-y-2 text-sm text-muted-foreground">
           <a href="#" className="transition hover:text-ink">Instagram</a>
           <a href="/termos.html" className="transition hover:text-ink">Termos</a>
-          <a href="#" className="transition hover:text-ink">Privacidade</a>
+          <a href="/privacidade.html" className="transition hover:text-ink">Privacidade</a>
         </nav>
       </div>
       <div className="container-tight mt-10 border-t border-border pt-6 text-xs text-muted-foreground">
