@@ -4,7 +4,7 @@ import { Footer } from "./Footer";
 export function Termos() {
   return (
     <div className="min-h-screen bg-background text-ink">
-      <Nav />
+      <Nav simple />
       <main className="container-tight max-w-3xl py-16">
         <h1 className="text-3xl font-bold tracking-tight text-ink sm:text-4xl">Termos de Uso</h1>
         <p className="mt-2 text-sm text-muted-foreground">Última atualização: {new Date().toLocaleDateString("pt-BR", { day: "2-digit", month: "long", year: "numeric" })}</p>
