@@ -11,10 +11,8 @@ export function Footer() {
           </p>
         </div>
         <nav className="flex flex-wrap items-center gap-x-6 gap-y-2 text-sm text-muted-foreground">
-          <a href="#" className="transition hover:text-ink">Contato</a>
-          <a href="#" className="transition hover:text-ink">WhatsApp</a>
           <a href="#" className="transition hover:text-ink">Instagram</a>
-          <a href="#" className="transition hover:text-ink">Termos</a>
+          <a href="/termos.html" className="transition hover:text-ink">Termos</a>
           <a href="#" className="transition hover:text-ink">Privacidade</a>
         </nav>
       </div>
